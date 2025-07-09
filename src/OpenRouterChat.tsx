@@ -27,7 +27,7 @@ const OpenRouterChat: React.FC = () => {
         headers: {
           Authorization: "Bearer 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", // Replace with actual key
           "Content-Type": "application/json",
-          "HTTP-Referer": "https://your-site.com", // Optional
+          "HTTP-Referer": "https://ai-assistant-lemon-six.vercel.app", // Optional
           "X-Title": "My React Bot", // Optional
         },
         body: JSON.stringify({
